@@ -1,0 +1,112 @@
+
+.top{
+  background-color: #5d9b23;
+  padding: 0.6em 0;
+}
+.navbar-default{
+  background-color: #f2f0f1;
+  box-shadow: 20px -5px 39px -6px;
+  padding: 25px 0;
+}
+.navbar-default .navbar-brand>img{
+  margin-top: -10px;
+}
+.navbar-default ul.navbar-nav li a{
+  top: 20px;
+  padding: 5px 50px;
+  font-weight: 600;
+}
+.navbar-default ul.navbar-nav li a:hover,.navbar-default ul.navbar-nav li a:focus{
+  background-color: #d96b66;
+  color: #fff;
+  border-radius: 5px;
+}
+.navbar-default .navbar-right a{
+  display: block;
+  padding-top:10px;
+  font-size: 20px;
+  color: #d96b66;
+}
+/*header部分结束*/
+.search{
+  width: 100%;
+  background: url(../images/banner.jpg) no-repeat;
+  min-height: 550px;
+  margin-top:-20px; 
+}
+.search .reservation{
+  background: rgba(255,255,255,0.7);
+  width: 50%;
+  margin: 10% auto;
+  padding: 50px;
+}
+
+
+
+.hot .container h2{
+  padding: 15px 0;
+  border-bottom:1px #cccccc solid;
+  font-size: 20px;
+  font-weight: 600; 
+}
+.hot .container img{
+  padding-top: 15px;
+}
+.hot .container p.glyphicon{
+  line-height: 30px;
+  color: green;
+}
+.hot .container p.glyphicon span{
+  color: #000;
+}
+.hot .container .car a{
+  display: block;
+  padding:10px 0 10px 10px;
+  background-color:#d96b66;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-transition:all 1s;
+}
+.hot .container .car a:hover{
+  background-color: green;
+  text-decoration: none;
+}
+.hot .container .price{
+  font-size: 18px;
+  color:#d96b66;
+}
+ .pic{
+        width: 800px;
+        margin:0 auto;
+       }
+@media (max-width: 768px){
+  .pic{
+    width: 450px;
+  }
+}
+/* footer */
+li{
+        list-style:none;
+}
+footer{
+        height: 80px;
+        background: rgb(217,107,102);
+        color: #fff;
+        margin-top:20px; 
+}
+.footer-left{
+        float: left;
+        line-height: 80px;
+      }
+.footer-right{
+        float: right;
+        line-height: 80px;
+}
+.footer-right ul li{
+        float: left;
+        margin-right: 20px;
+}
+.footer-right ul li a{
+        color: #fff;
+        text-decoration: none;
+}
